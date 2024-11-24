@@ -20,5 +20,6 @@ stepinfo(u*P_cruise)
 pole(P_cruise);
 pzmap(P_cruise);
 axis([-1 1 -1 1])
+title('Open-loop poles and zeros');
 saveas(gcf, 'figures/2-open-pzmap.fig');
 saveas(gcf, 'plots/2-open-pzmap.jpg');

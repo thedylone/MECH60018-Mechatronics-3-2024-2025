@@ -16,7 +16,7 @@ T = feedback(C*P_cruise,1);
 t = 0:0.1:20;
 step(r*T,t)
 axis([0 20 0 10])
-title('Closed-loop Step Response with PI Control')
+title('Closed-loop Step Response, Kp = 600, Ki = 1');
 saveas(gcf, 'figures/8-closed-step-PI-1.fig');
 saveas(gcf, 'plots/8-closed-step-PI-1.jpg');
 

@@ -16,7 +16,7 @@ T = feedback(C*P_cruise,1);
 t = 0:0.1:20;
 step(r*T,t)
 axis([0 20 0 10])
-title('Closed-loop Step Response with Proportional Control')
+title('Closed-loop Step Response, Kp = 100');
 saveas(gcf, 'figures/3-closed-step-P-100.fig');
 saveas(gcf, 'plots/3-closed-step-P-100.jpg');
 
