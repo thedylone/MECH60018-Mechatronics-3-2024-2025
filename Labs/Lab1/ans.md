@@ -49,7 +49,7 @@ Q16: $τ = 0.198$ s
 
 Q17: Yes
 
-Q18: E_{ss} ≅ 0
+Q18: $E_{ss} ≅ 0$
 > r*b/(b + K_p) ≅ 0 since K_p is very large
 
 Q19: Yes
@@ -61,7 +61,7 @@ Q21: `5-closed-step-P-5000-u.jpg`
 
 Q22: $u = 50000$ N
 
-## Reduce K_p to satisfy u = 500 N
+## Reduce $K_p$ to satisfy $u = 500$ N
 Q23: $K_p = 50$
 
 Q24: `6-closed-step-P-50-u.jpg`
@@ -84,7 +84,7 @@ Q28: $s = -0.6485, -0.0015$
 Q29: $E_{ss} = 1$
 > realistically since it takes very long to reach 10
 
-Q30: τ = ?
+Q30: $τ = 1.8$ s?
 > i calculated $2(m + K_d)/(b + K_p)$
 
 ## $K_p = 800, K_i = 40$
@@ -105,7 +105,8 @@ Q35: `10-closed-step-PID-1.jpg`
 
 Q36: $E_{ss} = 0$
 
-Q37: $τ = ?$ s
+Q37: $τ = 58$ s?
+> if you take as 63% value, else $2(m + K_d)/(b + K_p) = 39$
 
 # Simulink
 Q38(a): `ccmodel.slx`
