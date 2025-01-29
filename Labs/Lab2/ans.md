@@ -70,7 +70,7 @@ Q25: Gain margin $=$ Infinite dB
 
 Q26: Phase margin $= 46.9$ deg
 
-Q27: Bandwidth =
+Q27: Bandwidth $= 1.46$ rad/s
 
 Q28: `10-bode-K-10.jpg`
 
